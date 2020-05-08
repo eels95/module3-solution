@@ -1,0 +1,113 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #ade0ea;
+	font-family: 'Pacifico', cursive;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: white;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand h1 {/* Company name */
+	text-shadow: 1px 1px 1px grey;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: Arial, serif;
+	}
+
+#nav-list a:hover {
+	opacity: 40%;
+	}
+
+button.navbar-toggle, .navbar-header .icon-bar {
+	height: 20px;
+	width:20px;
+	background-color: grey;
+	}
+
+button.navbar-toggle {
+	clear: both;
+}
+
+hr {
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 0;
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+/* END HEADER */
+
+/* CONTENT */
+
+h2 {
+	padding: 15px;
+}
+
+.row {
+	width: 100%;
+	height: 1000px;
+}
+
+.menu-item-chicken {
+	background-color: grey;
+	padding: 20px;
+	margin: 15px 40px 30px 50px;
+}
+
+.menu-item-beef {
+	background-color: grey;
+	padding: 20px;
+	margin: 15px 40px 30px 50px;
+}
+
+.menu-item-sushi {
+	background-color: grey;
+	padding: 20px;
+	margin: 15px 40px 30px 50px;
+}
+
+.item {
+	padding: 10px;
+	margin-top: -5px;
+}
+.description {
+	font-family: Arial, serif;
+	font-size: 1em;
+	font-style: italic;
+}
+/* END CONTENT */
+
+
+/* Media Query large devices only */
+@media (min-width: 1200px) {
+
+}
+
+/* Media Query medium devices only */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Media Query small devices only */
+@media (min-width: 768px) {
+	.navbar-toggle {
+		display: none;
+	}
+}
