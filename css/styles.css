@@ -17,6 +17,8 @@ body {
 	color: black;
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -44,7 +46,7 @@ button.navbar-toggle {
 	clear: both;
 }
 
-hr {
+.visible-xs {
 	overflow: hidden;
 	margin-top: 5px;
 	margin-bottom: 0;
@@ -68,7 +70,7 @@ h2 {
 .menu-item-chicken {
 	background-color: grey;
 	padding: 20px;
-	margin: 15px 40px 30px 50px;
+	margin: 0px 40px 30px 50px;
 }
 
 .menu-item-beef {
